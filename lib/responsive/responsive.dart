@@ -12,6 +12,13 @@ class Responsive extends StatefulWidget {
 class _ResponsiveState extends State<Responsive> {
   @override
   Widget build(BuildContext context) {
-    return LayoutBuilder(builder: (BuildContext, BoxConstraints) {});
+    return LayoutBuilder(builder: (BuildContext, BoxConstraints) {
+      if () {
+        
+      } else {
+        
+      }
+
+    });
   }
 }
