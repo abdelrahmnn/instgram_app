@@ -16,6 +16,7 @@ class _MobileScreenState extends State<MobileScreen> {
 
   @override
   Widget build(BuildContext context) {
+    var search;
     return Scaffold(
       appBar: AppBar(
         title: Text("mobile screen"),
@@ -55,6 +56,10 @@ class _MobileScreenState extends State<MobileScreen> {
                 ),
                 label: ""),
           ]),
+       body: ,
+    
+    
+    
     );
   }
 }
