@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class MobileScreen extends StatefulWidget {
@@ -16,7 +17,7 @@ class _MobileScreenState extends State<MobileScreen> {
       appBar: AppBar(
         title: Text("mobile screen"),
       ),
-      bottomNavigationBar: BottomNavigationBar(items: [
+      bottomNavigationBar: CupertinoTabBar(items: [
         BottomNavigationBarItem(icon: Icon(Icon.home), lable: "home"),
         BottomNavigationBarItem(icon: Icon(Icon.home), lable: "home"),
       ]),
