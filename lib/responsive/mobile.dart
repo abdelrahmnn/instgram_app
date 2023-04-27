@@ -1,7 +1,11 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:instgram_app/screen/add_poste.dart';
+import 'package:instgram_app/screen/home.dart';
+import 'package:instgram_app/screen/profile.dart';
+import 'package:instgram_app/screen/search.dart';
 import 'package:instgram_app/shared/color.dart';
 
 class MobileScreen extends StatefulWidget {
@@ -59,8 +63,13 @@ class _MobileScreenState extends State<MobileScreen> {
       body: PageView(
         onPageChanged: (index) {},
         physics: NeverScrollableScrollPhysics(),
-        controller: _pageController,
-        children: [],
+        //controller: _pageController,
+        children: [
+          Home(),
+          Profile(),
+          Search(),
+          AddProfile(),
+        ],
       ),
     );
   }
