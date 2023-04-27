@@ -16,8 +16,10 @@ class _MobileScreenState extends State<MobileScreen> {
       appBar: AppBar(
         title: Text("mobile screen"),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-          items: [BottomNavigationBarItem(icon: Icon(Icon.home))]),
+      bottomNavigationBar: BottomNavigationBar(items: [
+        BottomNavigationBarItem(icon: Icon(Icon.home), lable: "home"),
+        BottomNavigationBarItem(icon: Icon(Icon.home), lable: "home"),
+      ]),
     );
   }
 }
