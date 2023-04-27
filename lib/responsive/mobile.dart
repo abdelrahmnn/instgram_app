@@ -28,7 +28,9 @@ class _MobileScreenState extends State<MobileScreen> {
       ),
       bottomNavigationBar: CupertinoTabBar(
           backgroundColor: mobileBackgroundColor,
-          onTap: (index) {},
+          onTap: (index) {
+            print("------- $index")
+          },
           items: [
             BottomNavigationBarItem(
                 icon: Icon(
