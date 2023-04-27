@@ -13,12 +13,8 @@ class _ResponsiveState extends State<Responsive> {
   @override
   Widget build(BuildContext context) {
     return LayoutBuilder(builder: (BuildContext, BoxConstraints) {
-      if () {
-        
-      } else {
-        
-      }
-
+      if (BoxConstraints.maxWidth > 600) {
+      } else {}
     });
   }
 }
