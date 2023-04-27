@@ -12,24 +12,49 @@ class MobileScreen extends StatefulWidget {
 }
 
 class _MobileScreenState extends State<MobileScreen> {
+  get index => null;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text("mobile screen"),
       ),
-      bottomNavigationBar:
-          CupertinoTabBar(
-            backgroundColor: mobileBackgroundColor, 
-             onTap: ,
-          
+      bottomNavigationBar: CupertinoTabBar(
+          backgroundColor: mobileBackgroundColor,
+          onTap: (index) {},
           items: [
-        BottomNavigationBarItem(icon: Icon(Icon.home, color: primaryColor,), label: ""),
-        BottomNavigationBarItem(icon: Icon(Icon.search,color: secondaryColor,), label: ""),
-        BottomNavigationBarItem(icon: Icon(Icon.addcircle,color: secondaryColor,), label: ""),
-         BottomNavigationBarItem(icon: Icon(Icon.favroite,color: secondaryColor,), label: ""),
-          BottomNavigationBarItem(icon: Icon(Icon.persons,color: secondaryColor,), label: ""),
-      ]),
+            BottomNavigationBarItem(
+                icon: Icon(
+                  Icon.home,
+                  color: primaryColor,
+                ),
+                label: ""),
+            BottomNavigationBarItem(
+                icon: Icon(
+                  Icon.search,
+                  color: secondaryColor,
+                ),
+                label: ""),
+            BottomNavigationBarItem(
+                icon: Icon(
+                  Icon.addcircle,
+                  color: secondaryColor,
+                ),
+                label: ""),
+            BottomNavigationBarItem(
+                icon: Icon(
+                  Icon.favroite,
+                  color: secondaryColor,
+                ),
+                label: ""),
+            BottomNavigationBarItem(
+                icon: Icon(
+                  Icon.persons,
+                  color: secondaryColor,
+                ),
+                label: ""),
+          ]),
     );
   }
 }
