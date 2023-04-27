@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class WebScree extends StatefulWidget {
@@ -11,7 +13,9 @@ class _WebScreeState extends State<WebScree> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text("web screen"),
+      ),
     );
   }
 }
