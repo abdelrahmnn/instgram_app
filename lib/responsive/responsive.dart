@@ -6,7 +6,7 @@ class Responsive extends StatefulWidget {
   final mymobilscreen;
   final mywebscreen;
 
-  const Responsive({super.key});
+  const Responsive({super.key, required this.mymobilscreen, this.mywebscreen});
 
   @override
   State<Responsive> createState() => _ResponsiveState();
