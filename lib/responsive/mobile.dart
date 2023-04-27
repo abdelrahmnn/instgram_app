@@ -15,7 +15,10 @@ class _MobileScreenState extends State<MobileScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text("mobile screen"),
+
       ),
+
+      bottomNavigationBar: ,
     );
   }
 }
