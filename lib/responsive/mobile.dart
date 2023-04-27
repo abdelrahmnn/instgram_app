@@ -56,10 +56,7 @@ class _MobileScreenState extends State<MobileScreen> {
                 ),
                 label: ""),
           ]),
-       body: ,
-    
-    
-    
+      body: PageView(),
     );
   }
 }
