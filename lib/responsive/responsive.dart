@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_types_as_parameter_names, non_constant_identifier_names
+
 import 'package:flutter/material.dart';
 
 class Responsive extends StatefulWidget {
@@ -10,6 +12,6 @@ class Responsive extends StatefulWidget {
 class _ResponsiveState extends State<Responsive> {
   @override
   Widget build(BuildContext context) {
-    return LayoutBuilder(builder: ,);
+    return LayoutBuilder(builder: (BuildContext, BoxConstraints) {});
   }
 }
