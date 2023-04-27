@@ -38,6 +38,12 @@ class _MobileScreenState extends State<MobileScreen> {
               color: secondaryColor,
             ),
             label: ""),
+        BottomNavigationBarItem(
+            icon: Icon(
+              Icon.favroite,
+              color: secondaryColor,
+            ),
+            label: ""),
       ]),
     );
   }
