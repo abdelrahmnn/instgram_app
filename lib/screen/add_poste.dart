@@ -11,7 +11,9 @@ class _AddProfileState extends State<AddProfile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text("add profile screen"),
+      ),
     );
   }
 }
