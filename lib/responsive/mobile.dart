@@ -68,6 +68,7 @@ class _MobileScreenState extends State<MobileScreen> {
           Home(),
           Profile(),
           Search(),
+          Center(child: Text("abdo"),)
           AddProfile(),
         ],
       ),
