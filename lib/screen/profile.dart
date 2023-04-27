@@ -11,7 +11,9 @@ class _ProfileState extends State<Profile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: ,
+      appBar: AppBar(
+        title: ("prfile screen"),
+      ),
     );
   }
 }
